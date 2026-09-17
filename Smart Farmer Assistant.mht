@@ -1,0 +1,228 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://cropsai.netlify.app/
+Subject: Smart Farmer Assistant
+Date: Sun, 30 Aug 2026 19:55:02 +0530
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--Mwr7mXztvwP5tcCvInb9XEJ2Gl9JpvfAWX3VhE4OYB----"
+
+
+------MultipartBoundary--Mwr7mXztvwP5tcCvInb9XEJ2Gl9JpvfAWX3VhE4OYB----
+Content-Type: text/html
+Content-ID: <frame-6FEA345A63214B9525ABB346A45B78BE@mhtml.blink>
+Content-Transfer-Encoding: binary
+Content-Location: https://cropsai.netlify.app/
+
+<!DOCTYPE html><html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" type="text/css" href="cid:css-abc14018-88d6-4192-b841-f405a5aa8f0c@mhtml.blink" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Smart Farmer Assistant</title>
+
+
+</head>
+
+<body>
+
+<header>
+    <h1>🌱 Smart Farmer Assistant</h1>
+    <p>Smart Technology for Better Farming</p>
+</header>
+
+<nav>
+    <button>Farmer Login</button>
+    <button>Crop Recommendation</button>
+    <button>Irrigation</button>
+    <button>Profit Calculator</button>
+    <button>Disease Detection</button>
+    <button>Dashboard</button>
+</nav>
+
+<div class="container">
+
+<!-- LOGIN -->
+<section id="login" class="card">
+    <h2>👨‍🌾 Farmer Login</h2>
+
+    <input type="text" id="farmerName" placeholder="Enter Farmer Name">
+
+    <input type="text" id="location" placeholder="Enter Location">
+
+    <select id="soil">
+        <option value="">Select Soil Type</option>
+        <option value="black">Black Soil</option>
+        <option value="red">Red Soil</option>
+        <option value="alluvial">Alluvial Soil</option>
+        <option value="sandy">Sandy Soil</option>
+    </select>
+
+    <select id="water">
+        <option value="">Water Availability</option>
+        <option value="high">High</option>
+        <option value="medium">Medium</option>
+        <option value="low">Low</option>
+    </select>
+
+    <button class="main-btn">Save Farmer Details</button>
+
+    <div id="loginResult"></div>
+</section>
+
+<!-- CROP -->
+<section id="crop" class="card hidden">
+    <h2>🌾 Smart Crop Recommendation</h2>
+
+    <p>Enter your soil and water details to get a crop suggestion.</p>
+
+    <select id="cropSoil">
+        <option value="">Select Soil</option>
+        <option value="black">Black Soil</option>
+        <option value="red">Red Soil</option>
+        <option value="alluvial">Alluvial Soil</option>
+        <option value="sandy">Sandy Soil</option>
+    </select>
+
+    <select id="cropWater">
+        <option value="">Select Water Availability</option>
+        <option value="high">High</option>
+        <option value="medium">Medium</option>
+        <option value="low">Low</option>
+    </select>
+
+    <button class="main-btn">Recommend Crop</button>
+
+    <div id="cropResult"></div>
+</section>
+
+<!-- IRRIGATION -->
+<section id="water" class="card hidden">
+    <h2>💧 Smart Irrigation Suggestion</h2>
+
+    <select id="weather">
+        <option value="">Today's Weather</option>
+        <option value="sunny">Sunny</option>
+        <option value="cloudy">Cloudy</option>
+        <option value="rainy">Rainy</option>
+    </select>
+
+    <select id="soilMoisture">
+        <option value="">Soil Moisture</option>
+        <option value="dry">Dry</option>
+        <option value="normal">Normal</option>
+        <option value="wet">Wet</option>
+    </select>
+
+    <button class="main-btn">Get Suggestion</button>
+
+    <div id="waterResult"></div>
+</section>
+
+<!-- PROFIT -->
+<section id="profit" class="card hidden">
+    <h2>💰 Farm Profit Calculator</h2>
+
+    <input type="number" id="seedCost" placeholder="Seed Cost ₹">
+
+    <input type="number" id="fertilizerCost" placeholder="Fertilizer Cost ₹">
+
+    <input type="number" id="labourCost" placeholder="Labour Cost ₹">
+
+    <input type="number" id="otherCost" placeholder="Other Cost ₹">
+
+    <input type="number" id="income" placeholder="Expected Income ₹">
+
+    <button class="main-btn">Calculate Profit</button>
+
+    <div id="profitResult"></div>
+</section>
+
+<!-- DISEASE -->
+<section id="disease" class="card hidden">
+    <h2>🐛 Crop Disease Detection</h2>
+
+    <p>Upload a crop leaf image for a basic demo.</p>
+
+    <input type="file" accept="image/*" id="leafImage">
+
+    <button class="main-btn">Check Crop</button>
+
+    <div id="diseaseResult"></div>
+</section>
+
+<!-- DASHBOARD -->
+<section id="dashboard" class="card hidden">
+    <h2>📊 Farmer Dashboard</h2>
+
+    <div id="dashboardContent">
+        <p>Login and save your farmer details to see your dashboard.</p>
+    </div>
+
+    <h3 style="margin-top:20px;">🔔 Alerts</h3>
+
+    <div class="alert">🌧️ Check weather before irrigation.</div>
+    <div class="alert">🐛 Monitor crops regularly for pests.</div>
+    <div class="alert">🌱 Keep fertilizer usage according to crop requirements.</div>
+</section>
+
+</div>
+
+
+
+
+
+
+  
+    
+    <link rel="stylesheet" href="https://cropsai.netlify.app/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pen</title>
+  
+  
+
+    
+  
+
+</body></html>
+------MultipartBoundary--Mwr7mXztvwP5tcCvInb9XEJ2Gl9JpvfAWX3VhE4OYB----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: https://cropsai.netlify.app/style.css
+
+@charset "utf-8";
+
+html { height: 100%; background: url("data:image/svg+xml,<svg viewBox=\"-20 -5 60 40\" width=\"140\" xmlns=\"http://www.w3.org/2000/svg\" opacity=\"0.2\"><path d=\"M1 8l11-7 11 7v8l-11 7-11-7zm0 0l11 8 11-8m0 8L12 8 1 16M12 1v7m0 8v7\" fill=\"none\" stroke=\"currentColor\" stroke-linejoin=\"round\" stroke-width=\"2\"/><text x=\"-12\" y=\"32\" font-size=\"5\" font-family=\"monospace\" fill=\"currentColor\">Built on CodePen</text></svg>") 50% 50% no-repeat; }
+------MultipartBoundary--Mwr7mXztvwP5tcCvInb9XEJ2Gl9JpvfAWX3VhE4OYB----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-abc14018-88d6-4192-b841-f405a5aa8f0c@mhtml.blink
+
+@charset "utf-8";
+
+* { box-sizing: border-box; margin: 0px; padding: 0px; font-family: Arial, sans-serif; }
+
+body { background: rgb(241, 248, 243); color: rgb(27, 67, 50); }
+
+header { background: rgb(45, 106, 79); color: white; padding: 20px; text-align: center; }
+
+nav { background: rgb(27, 67, 50); padding: 12px; text-align: center; }
+
+nav button { background: transparent; border-width: medium; border-style: none; border-color: currentcolor; border-image: none; color: white; margin: 5px 10px; cursor: pointer; font-size: 15px; }
+
+.container { max-width: 900px; margin: 25px auto; padding: 15px; }
+
+.card { background: white; padding: 25px; margin-bottom: 20px; border-radius: 12px; box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 10px; }
+
+h2 { margin-bottom: 15px; }
+
+input, select { width: 100%; padding: 12px; margin: 8px 0px 15px; border: 1px solid rgb(204, 204, 204); border-radius: 7px; }
+
+.main-btn { background: rgb(45, 106, 79); color: white; border-width: medium; border-style: none; border-color: currentcolor; border-image: none; padding: 12px 20px; border-radius: 7px; cursor: pointer; }
+
+.main-btn:hover { background: rgb(27, 67, 50); }
+
+.result { margin-top: 15px; padding: 15px; background: rgb(216, 243, 220); border-radius: 8px; }
+
+.hidden { display: none; }
+
+.alert { padding: 12px; background: rgb(255, 243, 205); border-radius: 8px; margin: 8px 0px; }
+------MultipartBoundary--Mwr7mXztvwP5tcCvInb9XEJ2Gl9JpvfAWX3VhE4OYB------
